@@ -17,7 +17,7 @@ public class BaseClass {
 		prop=new Properties();
 		try {
 			FileInputStream fis = new FileInputStream(
-					"G:\\Zomato\\Zomato_Testing\\src\\test\\java\\com\\test\\config\\config.properties");
+					"C:\\Users\\Kumar kush ranjan\\git\\TestingPOC\\maven_test\\src\\test\\java\\Configuration\\config.properties");
 			try {
 				prop.load(fis);
 			} catch (IOException e) {
